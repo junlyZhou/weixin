@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: wx-server
+  redis:
+    host: 192.168.29.130
+    port: 6379
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/testdb01?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&zeroDateTimeBehavior=CONVERT_TO_NULL
+wechat:
+  mpAppId: wxe00f476096733444
+  mpAppSecret: 737a9302b773bfec1cd7faf692d1e4f8
+  token: junly
+  #测试号
+  testMpAppId: wx695c624fc4a066e2
+  testMpAppSecret: 0e4bca2fb97deab8c29f343578ac2f29
+  testToken: 123
+
+projecturl:
+  wechatMpAuthorize: http://www.natapp.junlyz.cn
+  wechatOpenAuthorize: http://www.natapp.junlyz.cn
+  sell: http://www.natapp.junlyz.cn
